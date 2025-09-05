@@ -1,0 +1,1 @@
+SampleID	FwIndex	FwPrimer	RvIndex	RvPrimerSample1	uniqueindexlowercase	TEMPLATESPECIFICUPPERCASE	uniqueindexlowercase	TEMPLATESPECIFICUPPERCASESample2	uniqueindexlowercase	TEMPLATESPECIFICUPPERCASE	uniqueindexlowercase	TEMPLATESPECIFICUPPERCASE

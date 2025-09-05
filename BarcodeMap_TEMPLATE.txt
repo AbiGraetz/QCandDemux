@@ -1,0 +1,4 @@
+barcode_id	marker
+barcode01	16S
+barcode02	ITS
+# Complete as necessary. Barcodes must be 'barcode**' to be recognised.
