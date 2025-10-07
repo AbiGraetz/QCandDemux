@@ -35,7 +35,7 @@ nanoplot -t 8 --fastq calls.fastq --plots kde --maxlength 7500
 chopper --minlength 800 --maxlength 7500 -q 15 -t 8 calls.fastq | gzip > calls.Qmin15.fq.gz
 
 # Dorado demux by ONT native barcode
-dorado demux --kit-name SQK-NBD114.96 --output-dir ./DoradoDemux calls.Qmin15.fq.gz
+dorado demux --kit-name SQK-NBD114.96 --output-dir ./DoradoDemux --emit-fastq calls.Qmin15.fq.gz
 
 # Check sequences per barcode
 for file in ./DoradoDemux/*.fastq; do
