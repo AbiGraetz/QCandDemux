@@ -69,7 +69,7 @@ echo "If VSEARCH orienting throws an error, please check that your version is >2
 for marker in 16S ITS; do
 	for w in ./DoradoDemux/$marker/*.fastq; do
 		base=$(basename "$w" .fastq)
-		vsearch --orient "$w" --db "$VSEARCH_DB_${marker}" --fastqout ./MinibarDemux/"$base.oriented.fastq"
+		vsearch --orient "$w" --db "$VSEARCH_DB_${marker}" --fastqout ./MinibarDemux/"${base}.oriented.fastq"
 	done
 done
 
